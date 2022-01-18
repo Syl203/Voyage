@@ -1,0 +1,120 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #000000;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.titre-h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d4c46;
+}
+
+.titre-h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.titre-h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: darksalmon;
+}
+
+.titre-h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #E95420;
+}
+.titre-h5{
+    font-size: 20px;
+    color: rgb(72 72 71);
+    font-weight: bold;
+}
+
+nav{
+    border-bottom: 4px solid #E95420;
+}
+#incription{
+    margin-right: 20px;
+}
+
+#bloc-1-section{
+    background-image: url("../img/camion.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+#article-bloc1{
+    max-width: 600px;
+    margin-left: 10%;
+    padding-top: 100px;
+}
+.btn-rond{
+    border-radius: 50%;
+    background-color: #E95420;
+    border: none;
+    width: 40px;
+    height: 40px;
+
+}
+.btn-play{
+    color: white;
+}
+.demo-video{
+    color: rgb(72 72 71);
+}
+
+#bloc-2-section figure{
+    border-radius : 20px;
+}
+
+
+#bloc-2-section figure:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.bloc-3-infos i{
+    width : 50px;
+    height: 50px;
+    font-size: 40px;
+    color : #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+
+#icone-fb{
+    color : #3B5998!important;
+}
+
+#icone-tw{
+    color : #1DA1F2;
+}
+
+#bloc-7{
+    margin-top: 150px;
+    background-image: url("../img/bloc-form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 40px 0 40px 0;
+
+
+}
+.form-content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+}
+
+#btn-form{
+    margin-left: 40px;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width : 768px) {
+    #article-bloc1{
+        text-align: center;
+
+    }
+    .titre-h1{
+        font-size: 40px;
+    }
+    .demo-video{
+        display: none;
+    }
+    #footer-parent{
+        display: block;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    #right-nav{
+        display: block!important;
+    }
+    #right-nav a {
+        display:block!important;
+        width : 100%!important;
+    }
+    #right-nav input{
+        margin-top: 20px;
+    }
+    #right-nav button{
+        margin-top: 20px;
+    }
+}
